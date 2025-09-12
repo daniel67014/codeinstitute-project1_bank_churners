@@ -1,2 +1,12 @@
 # codeinstitute-project1_bank_churners
 Predicting when customers churn (leave a credit card company)
+
+The data folder contains the original CSV file for the Bank Churner dataset which is imported into the ETL_Pipelin file.
+
+A value of 'Unknown' was found in the dataset looking at the unique values for each of the features. I decided to use the mode to impute these values since this was a simple exercise
+
+A pair plot was created to visualise correlations between features
+
+Checked distributions months on books separated by existing and attrition customers
+
+Used a stack barplot do show proportions of card types for income categories
